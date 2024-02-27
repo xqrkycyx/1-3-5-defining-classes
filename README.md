@@ -1,2 +1,17 @@
-# 1-3-5-defining-classes
-Basics of object-oriented programming
+# Defining classes
+
+Define a `Student` class (in `student.js`) which has these attributes:
+
+- `firstName`: (`string`)
+- `lastName`: (`string`)
+- `birthYear`: (`number`)
+- `birthMonth`: (`number`)
+- `birthDay`: (`number`)
+- `gender`: (`string`)
+
+The constructor should take the parameters in the same order as above. A new instance of the `Student` class will be created as follows:
+
+```
+new Student("Mary", "Lee", 2000, 1, 1, "female");
+
+```
